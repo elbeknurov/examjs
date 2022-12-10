@@ -28,13 +28,13 @@
 // console.log(kabisa(1200));
 
 // it`s 4rd example
-var num = [-1, -2, -3, 5, 6, 1];
-var manfiy = [];
+// var num = [-1, -2, -3, 5, 6, 1];
+// var manfiy = [];
 
-num.forEach(function (item) {
-  if (item < 0) {
-    manfiy.push(item);
-  }
-});
+// num.forEach(function (item) {
+//   if (item < 0) {
+//     manfiy.push(item);
+//   }
+// });
 
-console.log(manfiy);
+// console.log(manfiy);
