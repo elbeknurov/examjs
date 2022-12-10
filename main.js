@@ -1,15 +1,11 @@
 // it`s 2rd example
+
 // function palendrom(n) {
 //   const num = String(n);
-//   console.log(nume);
 //   const array = num.split("");
-//   console.log(array);
 //   const rever = array.reverse();
-//   console.log(rever);
 //   const join = rever.join("");
-//   console.log(join);
 //   const number = Number(join);
-//   console.log(number);
 //   if (n === number) {
 //     return true;
 //   } else {
@@ -32,14 +28,13 @@
 // console.log(kabisa(1200));
 
 // it`s 4rd example
-// var t = [-1, -2, -3, 5, 6, 1];
-// var negativeArr = [];
+var num = [-1, -2, -3, 5, 6, 1];
+var manfiy = [];
 
-// t.forEach(function (item) {
-//   if (item < 0) {
-//     negativeArr.push(item);
-//   }
-// });
+num.forEach(function (item) {
+  if (item < 0) {
+    manfiy.push(item);
+  }
+});
 
-// console.log(positiveArr);
-// console.log(negativeArr);
+console.log(manfiy);
